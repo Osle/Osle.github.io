@@ -127,14 +127,18 @@ nav{
     background-size: contain;
     border-radius: 5px;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 .card span{
     display: block;
-    padding-bottom: 30px;
-
     font-size: 20px;
+}
+.card_sub{
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
 }
 #about{
     padding-top: 100px;
@@ -146,6 +150,10 @@ nav{
 #about .content{
     background: #e8c994;
     position: relative;
+}
+.card_name{
+    font-size: 13px;
+    padding-bottom: 30px;
 }
 #about .content img{
     position: absolute;
